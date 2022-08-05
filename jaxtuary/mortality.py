@@ -11,7 +11,6 @@ def get_q_from_select_ultimate(
 ):
     """
     Get the mortality rates from select/ultimate mortality table. 
-    Source code is easy to read so docstring is minimal.
 
     When duration is out of bounds it pulls rates from the end of the table.
     https://jax.readthedocs.io/en/latest/notebooks/Common_Gotchas_in_JAX.html#out-of-bounds-indexing
